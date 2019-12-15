@@ -1,0 +1,245 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1199px) { 
+ #About .absolate-img img {
+	right: 40px;
+}
+#team-area .single-team.right {
+	padding-left: 150px;
+}
+#blog-area .single-blog {
+	padding-right: 20px;
+}   
+#header .mobile-menu {
+	display: none;
+}
+#approci-area .approc-video {
+	margin-top: 50px;
+}
+
+
+}
+
+
+
+
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+#header .mobile-menu {
+  display: block;
+}
+#header .main-menu {
+	display: none;
+}
+#header .mobile-menu {
+	position: absolute;
+	right: 30px;
+	display: inline-block;
+	top: 0;
+}
+#header .slicknav_menu {
+  background: transparent;
+}
+#header .slicknav_menu .slicknav_menutxt {
+  display: none;
+}
+#header .slicknav_menu .slicknav_icon {
+  margin-top: -9px;
+}
+#header .slicknav_btn {
+  background: transparent;
+}
+#header .slicknav_nav ul {
+  background: #222;
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+  margin-top: 19px;
+}
+#header .slicknav_menu .slicknav_icon-bar {
+	background-color: #7C7C7C;
+}
+#hero-area .hero-content h1 {
+	font-size: 25px;
+	line-height: 35px;
+}
+#hero-area .hero-content h4 {
+	margin-top: 15px;
+}
+#About .about-img img {
+	max-width: 200px;
+}
+#About .absolate-img img {
+	max-width: 200px;
+}
+#About .about-content {
+	padding-right: 0;
+}
+#thinking-area {
+	padding: 50px 0;
+}
+#thinking-area .thinking-img img {
+	bottom: -50px;
+}
+#thinking-area::before {
+	background: none;
+}
+#approci-area .approc-video {
+	padding: 0;
+	margin-top: 100px;
+}
+#team-area .single-team.right {
+	padding-left: 40px;
+}
+#info-area .single-info {
+	padding-right: 0px;
+}
+#blog-area .single-blog {
+	padding-top: 0px;
+	padding-right: 0;
+}
+#blog-area .left-img {
+	top: 20px;
+}
+#footer .footer-menu li a {
+	padding: 10px 15px;
+}
+#footer .Copyright-text p {
+	font-size: 10px;
+}
+
+
+
+
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+#header .mobile-menu {
+  display: block;
+}
+#header .main-menu {
+	display: none;
+}
+
+#header .mobile-menu {
+  position: absolute;
+  right: 12%;
+}
+#header .slicknav_menu {
+  background: transparent;
+}
+#header .slicknav_menu .slicknav_menutxt {
+  display: none;
+}
+#header .slicknav_btn {
+  background: transparent;
+}
+#header .slicknav_nav ul {
+  background: #222;
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+  margin-top: 19px;
+}
+#header .slicknav_menu .slicknav_icon-bar {
+	background-color: #7C7C7C;
+}
+#header .mobile-menu {
+	position: absolute;
+	right: 50px;
+	top: -42px;
+}
+#header .header-search {
+	top: -30px;
+	position: absolute;
+	right: 25px;
+}
+#header .search-form {
+	width: 280px;
+}
+#header .search-form input[type="search"] {
+	width: 160px;
+}
+#hero-area .hero-content h1 {
+	font-size: 20px;
+	line-height: 30px;
+}
+#hero-area .hero-content h4 {
+	margin-top: 15px;
+	line-height: 30px;
+}
+#hero-area .row img {
+	display: none;
+}
+#hero-area {
+	height: auto;
+	padding: 200px 0;
+}
+#About .absolate-img img {
+	position: absolute;
+	right: 0;
+	top: 0px;
+}
+#About .about-img img {
+	max-width: 100%;
+}
+#About .about-content {
+	padding-right: 0;
+	margin-top: 200px;
+}
+#thinking-area .thinking-img img {
+	display: none;
+}
+#thinking-area::before {
+	background: none;
+	width: 0;
+	height: 0;
+}
+#coundown-area .single-counter {
+	margin-bottom: 50px;
+}
+#approci-area .approc-video {
+	padding: 0;
+}
+#team-area .single-team, #team-area .single-team.right {
+	padding: 20px;
+}
+#info-area .absolate-info-bg {
+	display: none;
+}
+#info-area .single-info {
+	padding-right: 0;
+}
+#blog-area .single-blog {
+	padding-right: 0;
+}
+#blog-area .left-img {
+	top: 40px;
+}
+#footer .single-footer {
+	margin-bottom: 30px;
+}
+#footer .footer-menu {
+	text-align: center;
+}
+#footer .Copyright-text {
+	text-align: center;
+}
+#footer .footer-menu {
+	margin-top: 15px;
+}
+
+#blog-area .left-img {
+  position: relative;
+  margin-bottom: 60px;
+}
+#blog-area .single-blog {
+  padding-left: 0;
+}
+
+
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) { 
+
+}
